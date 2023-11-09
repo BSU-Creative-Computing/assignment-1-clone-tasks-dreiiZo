@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .left-nav {
+    background-color: #1e90ff;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .right-nav, .mid-nav {
+    list-style-type: none;
+  }
+  
+  .right-nav {
+    text-align: center;
+    padding-right: 10px;
+  }
+  
+  .mid-nav {
+    text-align: center;
+    margin-top: 25px;
+  
+  }
+  
+  .right-nav li, .mid-nav li {
+    display: inline-block;
+  }
+  
+  .Welcome {
+    margin-right: 150px;
+    margin-top: 15px;
+  }
+  
+  .right-nav li a, .mid-nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 24px 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .right-nav a:hover, .mid-nav a:hover {
+    color: black;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    font-size: 14px;
+    margin: 0% 15% 0% 15%;
+  }
+  
+  .container img {
+    width: 100%;
+    padding: 6px;
+    display: block;
+  }
+    
+  .the_movie {
+    grid-column: 1;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    padding-bottom: 171px;
+  }
+  
+  .the_movie_side {
+    display: grid;
+    margin: 20px;
+  }
+  
+  .themovie_2 {
+    grid-column: 1;
+    grid-template-columns: 30% 30%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    margin-right: 10px;
+    padding-bottom: 70px;
+  }
+  
+  .themovie_3 {
+    grid-column: 2;
+    grid-template-columns: 30% 30%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    margin-right: 10px;
+    padding-bottom: 70px;
+  }
+  
+  .themovie_4{
+    grid-column: 1;
+    grid-template-columns: 30% 30%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    margin-right: 10px;
+    margin-top: 2px;
+    padding-bottom: 70px;
+  }
+  
+  .themovie_5{
+    grid-column: 2;
+    grid-template-columns: 30% 30%;
+    border: 1px solid lightgray;
+    align-self: center;
+    box-shadow: 0.5px 1px lightgray;
+    margin-right: 10px;
+    padding-bottom: 70px;
+  }
+  
+  p {
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif ;  }
+  
+  button {
+    background-color: #1e90ff;
+    border: 0px;
+    padding: 6px;
+    margin-left: 90px;
+    border-radius: 5px;
+    color: white;
+  }

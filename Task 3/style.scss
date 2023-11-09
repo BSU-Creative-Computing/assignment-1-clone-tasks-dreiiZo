@@ -1,0 +1,131 @@
+@import "centering"; //imported centering elements mixin
+@import "media-queries"; //imported mediaqueries mixin
+
+$bg_color: #8ccff7;
+$color_1: #4e89ae;
+$color_2: #43658b;
+$color_3:#ed6663;
+$color_4: #ffa372;
+$hover_color: #444;
+
+//Header
+header {
+    @include center();
+    @include logo1();
+    @include logo2();
+    @include logo3();
+    //Cosmetic
+    background-color: $bg_color;
+    margin-bottom: 50px;
+}
+
+// Footer
+footer {
+    background-color: $bg_color;
+    width: 100%;
+    height: 50px;
+}
+
+// Rows
+
+// Rows container
+.rec-container{
+    margin-bottom: 50px;
+
+    .rec1 {
+        background-color: $color_1;
+        width: 100%;
+        height: 50px;
+    }
+
+    .rec1:hover {
+        background-color: $hover_color;
+    }
+    
+    .rec2 {
+        background-color: $color_2;
+        width: 100%;
+        height: 50px;
+    }
+
+    .rec2:hover {
+        background-color: $hover_color;
+    }
+    
+    .rec3 {
+        background-color: $color_3;
+        width: 100%;
+        height: 50px;
+    }
+
+    .rec3:hover {
+        background-color: $hover_color;
+    }
+    
+    .rec4{
+        background-color: $color_4;
+        width: 100%;
+        height: 50px;
+    }
+
+    .rec4:hover {
+        background-color: $hover_color;
+    }
+}
+
+//Row elements
+
+// Circles
+
+//Circles container
+.container {
+    @include center();
+    @include breakpoint_circle();
+}
+
+//Circles Elements
+.circles, .circle {
+    border-radius: 50%;
+    margin: 10px;
+
+
+    .round1 {
+        background-color: $color_1;
+        width: 70px;
+        height: 70px;
+    }
+
+    .round1:hover {
+        background-color: $hover_color;
+    }
+    
+    .round2 {
+        background-color: $color_2;
+        width: 80px;
+        height: 80px;
+    }
+
+    .round2:hover {
+        background-color: $hover_color;
+    }
+    
+    .round3 {
+        background-color: $color_3;
+        width: 90px;
+        height: 90px;
+    }
+
+    .round3:hover {
+        background-color: $hover_color;
+    }
+    
+    .round4 {
+        background-color: $color_4;
+        width: 100px;
+        height: 100px;
+    }
+
+    .round4:hover {
+        background-color: $hover_color;
+    }
+}

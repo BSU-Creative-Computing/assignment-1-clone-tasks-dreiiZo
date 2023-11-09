@@ -1,0 +1,52 @@
+// 400x400 image breakpoint
+@mixin logo1() {
+    @media (min-width: 801px) {
+        .logo1{
+            display: block;
+        }
+        .logo2{
+            display: none;
+        }        
+        .logo3{
+            display: none;
+        }
+    }
+}
+
+// 300x300 image breakpoint
+@mixin logo2() {
+    @media (max-width: 801px) and (min-width: 481px) {
+        .logo1{
+            display: none;
+        }
+        .logo2{
+            display: block;
+        }        
+        .logo3{
+            display: none;
+        }
+    }
+}
+
+// 200x200 image breakpoint
+@mixin logo3() {
+    @media (max-width: 480px) {
+        .logo1{
+            display: none; 
+        }
+        .logo2{
+            display: none;
+        }        
+        .logo3{
+            display: block;
+        }
+    }
+}
+
+// circles at 621px breakpint
+@mixin breakpoint_circle() {
+    @media (max-width: 621px) {
+        display: flex;
+        flex-direction: column;
+    }
+}

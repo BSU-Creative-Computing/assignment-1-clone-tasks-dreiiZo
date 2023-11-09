@@ -1,0 +1,131 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8ccff7;
+  margin-bottom: 50px;
+}
+@media (min-width: 801px) {
+  header .logo1 {
+    display: block;
+  }
+  header .logo2 {
+    display: none;
+  }
+  header .logo3 {
+    display: none;
+  }
+}
+@media (max-width: 801px) and (min-width: 481px) {
+  header .logo1 {
+    display: none;
+  }
+  header .logo2 {
+    display: block;
+  }
+  header .logo3 {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  header .logo1 {
+    display: none;
+  }
+  header .logo2 {
+    display: none;
+  }
+  header .logo3 {
+    display: block;
+  }
+}
+
+footer {
+  background-color: #8ccff7;
+  width: 100%;
+  height: 50px;
+}
+
+.rec-container {
+  margin-bottom: 50px;
+}
+.rec-container .rec1 {
+  background-color: #4e89ae;
+  width: 100%;
+  height: 50px;
+}
+.rec-container .rec1:hover {
+  background-color: #444;
+}
+.rec-container .rec2 {
+  background-color: #43658b;
+  width: 100%;
+  height: 50px;
+}
+.rec-container .rec2:hover {
+  background-color: #444;
+}
+.rec-container .rec3 {
+  background-color: #ed6663;
+  width: 100%;
+  height: 50px;
+}
+.rec-container .rec3:hover {
+  background-color: #444;
+}
+.rec-container .rec4 {
+  background-color: #ffa372;
+  width: 100%;
+  height: 50px;
+}
+.rec-container .rec4:hover {
+  background-color: #444;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 621px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.circles, .circle {
+  border-radius: 50%;
+  margin: 10px;
+}
+.circles .round1, .circle .round1 {
+  background-color: #4e89ae;
+  width: 70px;
+  height: 70px;
+}
+.circles .round1:hover, .circle .round1:hover {
+  background-color: #444;
+}
+.circles .round2, .circle .round2 {
+  background-color: #43658b;
+  width: 80px;
+  height: 80px;
+}
+.circles .round2:hover, .circle .round2:hover {
+  background-color: #444;
+}
+.circles .round3, .circle .round3 {
+  background-color: #ed6663;
+  width: 90px;
+  height: 90px;
+}
+.circles .round3:hover, .circle .round3:hover {
+  background-color: #444;
+}
+.circles .round4, .circle .round4 {
+  background-color: #ffa372;
+  width: 100px;
+  height: 100px;
+}
+.circles .round4:hover, .circle .round4:hover {
+  background-color: #444;
+}/*# sourceMappingURL=style.css.map */
